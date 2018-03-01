@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[About to Begin Executing SuiteSuite]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method: BaseTest.init]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method: BaseTest.init]]>
+    </line>
+    <line>
+      <![CDATA[About to Begin Executing TestTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method: BaseTest.open_application]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method: BaseTest.open_application]]>
+    </line>
+    <line>
+      <![CDATA[Execution of main test starts now]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method: ValidLogin.testValidLogin]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method: ValidLogin.testValidLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test Method resides inscript.ValidLogin]]>
+    </line>
+    <line>
+      <![CDATA[Test Status: Pass]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method: BaseTest.close_application]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method: BaseTest.close_application]]>
+    </line>
+    <line>
+      <![CDATA[Completed Executing TestTest]]>
+    </line>
+    <line>
+      <![CDATA[About to begin executing following method: BaseTest.end]]>
+    </line>
+    <line>
+      <![CDATA[Completed executing following method: BaseTest.end]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33487" started-at="2018-02-28T08:18:50Z" finished-at="2018-02-28T08:19:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33487" started-at="2018-02-28T08:18:50Z" finished-at="2018-02-28T08:19:23Z">
+      <class name="script.ValidLogin">
+        <test-method status="PASS" signature="init()[pri:0, instance:script.ValidLogin@3c0f93f1]" name="init" is-config="true" duration-ms="667" started-at="2018-02-28T13:48:49Z" finished-at="2018-02-28T13:48:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method: BaseTest.init]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="open_application(java.lang.String, java.lang.reflect.Method)[pri:0, instance:script.ValidLogin@3c0f93f1]" name="open_application" is-config="true" duration-ms="19217" started-at="2018-02-28T13:48:50Z" finished-at="2018-02-28T13:49:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void script.ValidLogin.testValidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method: BaseTest.open_application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open_application -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:script.ValidLogin@3c0f93f1]" name="testValidLogin" duration-ms="13167" started-at="2018-02-28T13:49:09Z" finished-at="2018-02-28T13:49:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method: ValidLogin.testValidLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test Method resides inscript.ValidLogin]]>
+            </line>
+            <line>
+              <![CDATA[Test Status: Pass]]>
+            </line>
+            <line>
+              <![CDATA[About to begin executing following method: BaseTest.close_application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="close_application(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@3c0f93f1]" name="close_application" is-config="true" duration-ms="1096" started-at="2018-02-28T13:49:22Z" finished-at="2018-02-28T13:49:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:0, instance:script.ValidLogin@3c0f93f1] output=Completed executing following method: ValidLogin.testValidLogin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method: BaseTest.close_application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- close_application -->
+        <test-method status="PASS" signature="end()[pri:0, instance:script.ValidLogin@3c0f93f1]" name="end" is-config="true" duration-ms="343" started-at="2018-02-28T13:49:24Z" finished-at="2018-02-28T13:49:24Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Completed executing following method: BaseTest.end]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- script.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
